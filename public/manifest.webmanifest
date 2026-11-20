@@ -1,0 +1,15 @@
+{
+  "name": "메리메모",
+  "short_name": "메리메모",
+  "description": "편지 한 장마다 트리에 장식이 하나씩. 크리스마스 0시에 열어 봐요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#5A1220",
+  "theme_color": "#5A1220",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,12 @@
+export function LogoIcon({ size = 24 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
+      <polygon points="12,3 5,12 19,12" fill="#3FA16B" />
+      <polygon points="12,8 3,20 21,20" fill="#3FA16B" />
+      <rect x="10" y="20" width="4" height="3" fill="#8A5A3B" />
+      <circle cx="12" cy="3" r="2" fill="#F2C14E" />
+      <circle cx="9" cy="15" r="1.2" fill="#E2323F" />
+      <circle cx="15" cy="16.5" r="1.2" fill="#F2C14E" />
+    </svg>
+  );
+}
